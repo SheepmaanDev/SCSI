@@ -1,0 +1,31 @@
+@import '../../vars'
+
+.header
+    height: 65px
+    width: 100%
+    // background: red
+    position: fixed
+    border-bottom: 1px solid grey
+    &__navbar
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 100%
+        padding: 0 .7rem
+        &__left
+            display: flex
+            align-items: center
+            gap: .4rem
+            &__logo
+                height: 55px
+            &__title
+                font-size: 1.3rem
+        &__middle
+            display: flex
+            gap: 4rem
+            font-size: 1.2rem
+        &__right
+            background: $green
+            padding: .3rem .5rem
+            border-radius: .5rem
+            font-size: 1.2rem
