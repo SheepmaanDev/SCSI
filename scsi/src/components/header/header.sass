@@ -3,9 +3,10 @@
 .header
     height: 65px
     width: 100%
-    // background: red
+    background: #fff
     position: fixed
-    border-bottom: 1px solid grey
+    border-bottom: 1px solid rgb(231, 231, 235)
+    z-index: 10
     &__navbar
         display: flex
         justify-content: space-between
@@ -19,13 +20,24 @@
             &__logo
                 height: 55px
             &__title
+                font-family: "Cantarell", sans-serif !important
                 font-size: 1.3rem
+                font-weight: bold
         &__middle
             display: flex
             gap: 4rem
             font-size: 1.2rem
+            font-weight: 400
+            & li
+                & a
+                    &:hover
+                        color: $green
+                        text-decoration: underline
         &__right
             background: $green
-            padding: .3rem .5rem
-            border-radius: .5rem
+            padding: .5rem .7rem
+            border-radius: 2rem
             font-size: 1.2rem
+            color: #fff
+            font-family: "Cantarell", sans-serif !important
+            // font-weight: bold
