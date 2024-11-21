@@ -1,5 +1,6 @@
 import Header from '../components/header/header'
 import Accueil from '../components/accueil/accueil'
+import Service from '../components/service/service'
 
 import './home.sass'
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div className='home'>
             <Header />
             <Accueil />
+            <Service />
         </div>
     )
 }
