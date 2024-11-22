@@ -4,7 +4,7 @@ import './accueil.sass'
 
 const Accueil = () => {
     return (
-        <section className='accueil'>
+        <section className='accueil' id='accueil'>
             <img className='accueil__img' src={Fond} alt="" />
             <div className='accueil__container'>
                 <div className='accueil__container__overlay'>
